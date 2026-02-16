@@ -25,3 +25,10 @@ git clone https://github.com/yourusername/insfollow.git
 cd insfollow
 pip install instagrapi requests
 python insfollow
+For termux
+pkg update && pkg upgrade
+pkg install python git
+git clone https://github.com/yourusername/insfollow.git
+cd insfollow
+pip install instagrapi requests
+python insfollow.py
